@@ -2,7 +2,7 @@
   "name": "brogram",
   "version": "0.0.1",
   "description": "program together",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
