@@ -16,8 +16,18 @@ From the command line:
 
 ## Usage
 
+### build
 
-`node server.js`
+#### client
+`npm run build-client`
+
+#### server
+`npm run build-server`
+
+### run the server
+now you can run the server
+
+`node server/index.js`
 
 ## License
  
