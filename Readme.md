@@ -15,3 +15,7 @@ From the command line:
 `npm install`
 
 `node server.js`
+
+## License
+ 
+MIT
