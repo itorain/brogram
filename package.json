@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "build-client": "webpack --config webpack.config.client.js",
-    "build-server": "webpack --config webpack.config.server.js"
+    "build-server": "webpack --config webpack.config.server.js",
+    "test": "./node_modules/eslint/bin/eslint.js server.js"
   },
   "repository": {
     "type": "git",
@@ -25,5 +26,9 @@
     "express": "^4.14.0",
     "socket.io": "^1.4.8",
     "webpack": "^1.13.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.6.1",
+    "eslint-config-google": "^0.6.0"
   }
 }
