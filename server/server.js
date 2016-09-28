@@ -5,7 +5,7 @@ const app = express();
 const http = Server(app);
 
 app.get('/', (req, res) => {
-    res.send('<h1>Hi</h1>');
+    res.sendFile('index.html', { root: 'client' });
 });
 
 http.listen(3000, () => {
